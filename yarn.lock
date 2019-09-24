@@ -121,7 +121,7 @@ babel-code-frame@^6.20.0:
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
-"babel-runtime@>=0.14.7 || ^15.0.0-rc.2", babel-runtime@^6.11.6, babel-runtime@^6.20.0:
+babel-runtime@^6.11.6, babel-runtime@^6.20.0:
   version "6.23.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.23.0.tgz#0a9489f144de70efb3ce4300accdb329e2fc543b"
   dependencies:
@@ -1105,8 +1105,8 @@ lodash.some@^4.4.0:
   resolved "https://registry.yarnpkg.com/lodash.some/-/lodash.some-4.6.0.tgz#1bb9f314ef6b8baded13b549169b2a945eb68e4d"
 
 lodash@^4.17.2:
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
 
 loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.2.0:
   version "1.3.1"
@@ -1509,7 +1509,7 @@ react-router@^3.0.2:
     loose-envify "^1.2.0"
     warning "^3.0.0"
 
-"react@>=0.14.7 || ^15.0.0-rc.2", react@^15.4.2:
+react@^15.4.2:
   version "15.4.2"
   resolved "https://registry.yarnpkg.com/react/-/react-15.4.2.tgz#41f7991b26185392ba9bae96c8889e7e018397ef"
   dependencies:
@@ -1750,13 +1750,6 @@ tough-cookie@~2.3.0:
   resolved "https://registry.yarnpkg.com/tough-cookie/-/tough-cookie-2.3.2.tgz#f081f76e4c85720e6c37a5faced737150d84072a"
   dependencies:
     punycode "^1.4.1"
-
-tracker-component@^1.3.21:
-  version "1.3.21"
-  resolved "https://registry.yarnpkg.com/tracker-component/-/tracker-component-1.3.21.tgz#4585dfccf9fce4ef0eee31babc9e4d190ea0ceaa"
-  dependencies:
-    babel-runtime ">=0.14.7 || ^15.0.0-rc.2"
-    react ">=0.14.7 || ^15.0.0-rc.2"
 
 tslint-react@^2.4.0:
   version "2.4.0"
